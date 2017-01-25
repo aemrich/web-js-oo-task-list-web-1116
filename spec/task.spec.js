@@ -10,7 +10,7 @@ describe('Task Model', function() {
       task = new Task('Walk the dog', 'high', list);
     });
 
-    describe('Properties from initialization', function() {    
+    describe('Properties from initialization', function() {
       it('should take a description when the task is created', function() {
         expect(task.description).toBe('Walk the dog');
       });
